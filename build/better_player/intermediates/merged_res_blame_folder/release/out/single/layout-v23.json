@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/layout-v23/exo_styled_player_control_rewind_button.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_rewind_button.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/layout-v23/exo_styled_player_control_ffwd_button.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/res/layout-v23/exo_styled_player_control_ffwd_button.xml"
+    }
+]

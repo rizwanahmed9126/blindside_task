@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/65f195f1f686397b89faec38dd4e05e6/core-1.6.0/res/layout/custom_dialog.xml"
+    }
+]

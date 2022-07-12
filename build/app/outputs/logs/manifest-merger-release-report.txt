@@ -1,0 +1,917 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:7:5-37:19
+MERGED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5910dcfb788c3aa96c68ac09795ad86/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5910dcfb788c3aa96c68ac09795ad86/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97e30bf8eb68151a6c6f21e30a752652/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97e30bf8eb68151a6c6f21e30a752652/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/04328cb0f63273cca0ddf5a07e3b28e2/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/04328cb0f63273cca0ddf5a07e3b28e2/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:25:5-38:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/42ecb927ac52e92a6eafb2a21dba78d7/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/42ecb927ac52e92a6eafb2a21dba78d7/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40942b1ffd97ac7e73932a680678fba4/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40942b1ffd97ac7e73932a680678fba4/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/54c63e47d38d3d8e9cf4d09acd20e8fd/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/54c63e47d38d3d8e9cf4d09acd20e8fd/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f7a9b06a0fe381fadc1887668c485e1/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f7a9b06a0fe381fadc1887668c485e1/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2273bea60f6fc62c566844a44f8ffa08/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2273bea60f6fc62c566844a44f8ffa08/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/875ca65d976375374a26594d32357844/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/875ca65d976375374a26594d32357844/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4e04235ddd5b49deb33e255899be965b/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4e04235ddd5b49deb33e255899be965b/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:10:9-43
+	android:name
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:9:9-42
+manifest
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rizwanahmed/Documents/blind_side/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/rizwanahmed/Documents/blind_side/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:better_player] /Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:wakelock] /Users/rizwanahmed/Documents/blind_side/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] /Users/rizwanahmed/Documents/blind_side/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_thumbnail] /Users/rizwanahmed/Documents/blind_side/build/video_thumbnail/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/rizwanahmed/Documents/blind_side/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:video_player_android] /Users/rizwanahmed/Documents/blind_side/build/video_player_android/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b512f506b8ed5b5c0039983557ac884d/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63ee798715b2d0ecce2c2c719eb13382/jetified-lifecycle-runtime-ktx-2.4.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5910dcfb788c3aa96c68ac09795ad86/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97e30bf8eb68151a6c6f21e30a752652/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/04328cb0f63273cca0ddf5a07e3b28e2/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8b66ce36acf8cc71a47a8c917e3b7b27/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63c69a1f3a3262ad3efb30198cd81b40/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c604aff304f7949ab9cb6773a9557e2a/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/11b0322bd6949dba1d1b8d6ce2509e4b/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/42ecb927ac52e92a6eafb2a21dba78d7/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9ee410c77bc23d5eea4e21d7952cd657/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/524a75cd542b94fcc45233126bd6670b/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40942b1ffd97ac7e73932a680678fba4/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97698e8eaa29fb0aad74962774850bda/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/54c63e47d38d3d8e9cf4d09acd20e8fd/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f7a9b06a0fe381fadc1887668c485e1/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2273bea60f6fc62c566844a44f8ffa08/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/875ca65d976375374a26594d32357844/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1384039ef2a4751a106552045676525a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2f7939f54b8f85928f42c5817cf8db8e/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70600c9f7078bdf4a01361d02c4794a7/jetified-extension-mediasession-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.3] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac2f50eefce5908077983d3e9d2e4353/media-1.4.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8277d0c19f6e4b0b09c39477e19a87d4/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5ecdc18fc920c78706f491a0382c5c60/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/15254f478437dd2bdcbfbcfca6a3c683/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f9b48a9ce9ddcc9354714d6714c2883b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a35c026368ea679f3b0171d2f59a41a8/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7e14d98fdfc29fff54e39c6d78414dc9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7eb933d5b61bc73db9bc9522deab5bfe/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a661366f747aa3e33717a21b7d2f2504/lifecycle-runtime-2.4.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/50f782aec780470bcc96bd99f6aae81d/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d8e0ae488815a34f6b2a89d94db59aea/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d992a80ad7f2f67802b8f4bc26224c61/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f4a591be0d600fb6945ab17bd045acd0/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5de589b32e4783d88318cb6603813e5e/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b5b52056852b9e3a3e8d62eecd4669bd/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9591b2eab08bbb39d5e5c03ece6eeb11/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d495b66719d7a0e3d918cd6edb448217/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4ae66fafd20239dc74be58ce98fc9cc8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/fb100fceb2f363a8e174d526fd0068a7/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4fcc51c977c106697258dcc1481d99cf/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/94a99a0ae0ad58bd0a52f2556c504558/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/08fad3810b2e6a25cf0c7e30bc3e118b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4e04235ddd5b49deb33e255899be965b/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/151b8a121ebd52ebc48e3d0445b02b59/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40a7b29204b56fd6df90ae90ad3c8698/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac1763a9e566cc516131ba383cc85cc8/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b1f60c3d0c36a18b97a8ca6a3814ac3a/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1a9e9b7cf4669798a9b48c5f039ea38d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c32597fab542b521381f9f5f3c4c5575/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5df7160461662dd5c9fe30ca53e29aa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/daadcaaedfc9f0561b6d5bff122e8456/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+	package
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:2:5-37
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:4:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/11b0322bd6949dba1d1b8d6ce2509e4b/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/11b0322bd6949dba1d1b8d6ce2509e4b/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/fb100fceb2f363a8e174d526fd0068a7/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/fb100fceb2f363a8e174d526fd0068a7/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c32597fab542b521381f9f5f3c4c5575/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c32597fab542b521381f9f5f3c4c5575/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-sdk
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rizwanahmed/Documents/blind_side/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rizwanahmed/Documents/blind_side/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/rizwanahmed/Documents/blind_side/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rizwanahmed/Documents/blind_side/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/rizwanahmed/Documents/blind_side/build/path_provider_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:better_player] /Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:better_player] /Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/rizwanahmed/Documents/blind_side/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] /Users/rizwanahmed/Documents/blind_side/build/wakelock/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rizwanahmed/Documents/blind_side/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/rizwanahmed/Documents/blind_side/build/shared_preferences_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_thumbnail] /Users/rizwanahmed/Documents/blind_side/build/video_thumbnail/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_thumbnail] /Users/rizwanahmed/Documents/blind_side/build/video_thumbnail/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rizwanahmed/Documents/blind_side/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/rizwanahmed/Documents/blind_side/build/fluttertoast/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Users/rizwanahmed/Documents/blind_side/build/video_player_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Users/rizwanahmed/Documents/blind_side/build/video_player_android/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b512f506b8ed5b5c0039983557ac884d/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b512f506b8ed5b5c0039983557ac884d/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63ee798715b2d0ecce2c2c719eb13382/jetified-lifecycle-runtime-ktx-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63ee798715b2d0ecce2c2c719eb13382/jetified-lifecycle-runtime-ktx-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5910dcfb788c3aa96c68ac09795ad86/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5910dcfb788c3aa96c68ac09795ad86/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97e30bf8eb68151a6c6f21e30a752652/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97e30bf8eb68151a6c6f21e30a752652/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/04328cb0f63273cca0ddf5a07e3b28e2/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/04328cb0f63273cca0ddf5a07e3b28e2/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8b66ce36acf8cc71a47a8c917e3b7b27/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8b66ce36acf8cc71a47a8c917e3b7b27/jetified-exoplayer-hls-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63c69a1f3a3262ad3efb30198cd81b40/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/63c69a1f3a3262ad3efb30198cd81b40/jetified-exoplayer-dash-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c604aff304f7949ab9cb6773a9557e2a/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c604aff304f7949ab9cb6773a9557e2a/jetified-exoplayer-smoothstreaming-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/11b0322bd6949dba1d1b8d6ce2509e4b/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/11b0322bd6949dba1d1b8d6ce2509e4b/jetified-exoplayer-core-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/42ecb927ac52e92a6eafb2a21dba78d7/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/42ecb927ac52e92a6eafb2a21dba78d7/jetified-play-services-measurement-sdk-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9ee410c77bc23d5eea4e21d7952cd657/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9ee410c77bc23d5eea4e21d7952cd657/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/524a75cd542b94fcc45233126bd6670b/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/524a75cd542b94fcc45233126bd6670b/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40942b1ffd97ac7e73932a680678fba4/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40942b1ffd97ac7e73932a680678fba4/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97698e8eaa29fb0aad74962774850bda/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/97698e8eaa29fb0aad74962774850bda/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/54c63e47d38d3d8e9cf4d09acd20e8fd/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/54c63e47d38d3d8e9cf4d09acd20e8fd/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f7a9b06a0fe381fadc1887668c485e1/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f7a9b06a0fe381fadc1887668c485e1/jetified-play-services-measurement-base-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2273bea60f6fc62c566844a44f8ffa08/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2273bea60f6fc62c566844a44f8ffa08/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/875ca65d976375374a26594d32357844/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/875ca65d976375374a26594d32357844/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1384039ef2a4751a106552045676525a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1384039ef2a4751a106552045676525a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2f7939f54b8f85928f42c5817cf8db8e/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/2f7939f54b8f85928f42c5817cf8db8e/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70600c9f7078bdf4a01361d02c4794a7/jetified-extension-mediasession-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-mediasession:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70600c9f7078bdf4a01361d02c4794a7/jetified-extension-mediasession-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac2f50eefce5908077983d3e9d2e4353/media-1.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.3] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac2f50eefce5908077983d3e9d2e4353/media-1.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8277d0c19f6e4b0b09c39477e19a87d4/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/8277d0c19f6e4b0b09c39477e19a87d4/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5ecdc18fc920c78706f491a0382c5c60/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5ecdc18fc920c78706f491a0382c5c60/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/15254f478437dd2bdcbfbcfca6a3c683/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/15254f478437dd2bdcbfbcfca6a3c683/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f9b48a9ce9ddcc9354714d6714c2883b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f9b48a9ce9ddcc9354714d6714c2883b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a35c026368ea679f3b0171d2f59a41a8/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a35c026368ea679f3b0171d2f59a41a8/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7e14d98fdfc29fff54e39c6d78414dc9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7e14d98fdfc29fff54e39c6d78414dc9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7eb933d5b61bc73db9bc9522deab5bfe/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7eb933d5b61bc73db9bc9522deab5bfe/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a661366f747aa3e33717a21b7d2f2504/lifecycle-runtime-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0-beta01] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a661366f747aa3e33717a21b7d2f2504/lifecycle-runtime-2.4.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/50f782aec780470bcc96bd99f6aae81d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/50f782aec780470bcc96bd99f6aae81d/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d8e0ae488815a34f6b2a89d94db59aea/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d8e0ae488815a34f6b2a89d94db59aea/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d992a80ad7f2f67802b8f4bc26224c61/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d992a80ad7f2f67802b8f4bc26224c61/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f4a591be0d600fb6945ab17bd045acd0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f4a591be0d600fb6945ab17bd045acd0/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5de589b32e4783d88318cb6603813e5e/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5de589b32e4783d88318cb6603813e5e/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b5b52056852b9e3a3e8d62eecd4669bd/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b5b52056852b9e3a3e8d62eecd4669bd/jetified-exoplayer-datasource-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9591b2eab08bbb39d5e5c03ece6eeb11/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/9591b2eab08bbb39d5e5c03ece6eeb11/jetified-exoplayer-extractor-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d495b66719d7a0e3d918cd6edb448217/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/d495b66719d7a0e3d918cd6edb448217/jetified-exoplayer-decoder-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4ae66fafd20239dc74be58ce98fc9cc8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4ae66fafd20239dc74be58ce98fc9cc8/jetified-exoplayer-database-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/fb100fceb2f363a8e174d526fd0068a7/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.17.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/fb100fceb2f363a8e174d526fd0068a7/jetified-exoplayer-common-2.17.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4fcc51c977c106697258dcc1481d99cf/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4fcc51c977c106697258dcc1481d99cf/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/94a99a0ae0ad58bd0a52f2556c504558/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/94a99a0ae0ad58bd0a52f2556c504558/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/08fad3810b2e6a25cf0c7e30bc3e118b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/08fad3810b2e6a25cf0c7e30bc3e118b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4e04235ddd5b49deb33e255899be965b/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4e04235ddd5b49deb33e255899be965b/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/151b8a121ebd52ebc48e3d0445b02b59/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/151b8a121ebd52ebc48e3d0445b02b59/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40a7b29204b56fd6df90ae90ad3c8698/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/40a7b29204b56fd6df90ae90ad3c8698/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac1763a9e566cc516131ba383cc85cc8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/ac1763a9e566cc516131ba383cc85cc8/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b1f60c3d0c36a18b97a8ca6a3814ac3a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/b1f60c3d0c36a18b97a8ca6a3814ac3a/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1a9e9b7cf4669798a9b48c5f039ea38d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1a9e9b7cf4669798a9b48c5f039ea38d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c32597fab542b521381f9f5f3c4c5575/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c32597fab542b521381f9f5f3c4c5575/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5df7160461662dd5c9fe30ca53e29aa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c5df7160461662dd5c9fe30ca53e29aa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/daadcaaedfc9f0561b6d5bff122e8456/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/daadcaaedfc9f0561b6d5bff122e8456/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml
+activity#com.example.blind_side.MainActivity
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:11:9-31:20
+	android:launchMode
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:13:13-36
+	android:configChanges
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:12:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:24:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:29:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:34:9-36:33
+	android:value
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:36:13-30
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/blind_side/android/app/src/main/AndroidManifest.xml:35:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/rizwanahmed/Documents/blind_side/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/rizwanahmed/Documents/blind_side/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/rizwanahmed/Documents/blind_side/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+MERGED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+MERGED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:flutter_video_info] /Users/rizwanahmed/Documents/blind_side/build/flutter_video_info/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+queries
+ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:5-15:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:21-69
+data
+ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Users/rizwanahmed/Documents/blind_side/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:19-41
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/1f44195b0f723d1fe7ac65a563deb327/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.6] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/7fe1e3b91e34bff3a7821aa1f2474af3/jetified-firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/755e2adac53a256792d34de26179e272/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/58c0ed0e25f4959ce1c2a803906093c1/jetified-firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/846e3aef208e0c051c8e2d52875654fd/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/c9b8837fa24886e4bc25ce631d091281/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/bf3bc76cf4ee767330f5c095ca2d26f0/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/4f467bd06996a1241f3cf25832e0e3b5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/f391035ab1ee12ad97f797f6445afeb3/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e1302551b6be7d2cddc831b141d16d8c/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/17cc38f86d8f63702c35307028222bac/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/5bbe124709b61e373543887a3b42111a/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/627f70ead7fa24fdee50082e083950a2/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/efc9a319da2aa9393fdde49325ee4a94/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/3e8622dd7c31d0600b7e8b47f6da41bf/room-runtime-2.2.5/AndroidManifest.xml:26:13-74

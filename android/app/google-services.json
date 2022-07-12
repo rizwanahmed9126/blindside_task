@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "325192615095",
+    "project_id": "blinds-b26bb",
+    "storage_bucket": "blinds-b26bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325192615095:android:eab542c7280af62e37b932",
+        "android_client_info": {
+          "package_name": "com.example.blind_side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325192615095-5cq9u800hh09b6uopauidi11lvt94e18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blind_side",
+            "certificate_hash": "cfaccb4f70b7a16c802d1ab573c26e0893052c1e"
+          }
+        },
+        {
+          "client_id": "325192615095-v2v0g6kd96n89la5pragtgj8qjsu2sr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQRMvYgt0Xwa8y08zY1ub1cpv63M65hP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325192615095-v2v0g6kd96n89la5pragtgj8qjsu2sr5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

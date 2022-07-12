@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/video_player_android/intermediates/res/merged/release/menu/example_menu.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/menu/example_menu.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/video_player_android/intermediates/res/merged/release/menu/example_menu2.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/menu/example_menu2.xml"
+    }
+]

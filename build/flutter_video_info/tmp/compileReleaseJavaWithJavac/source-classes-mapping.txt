@@ -1,0 +1,4 @@
+com/example/flutter_video_info/FlutterVideoInfoPlugin.java
+ com.example.flutter_video_info.FlutterVideoInfoPlugin
+com/example/flutter_video_info/BuildConfig.java
+ com.example.flutter_video_info.BuildConfig

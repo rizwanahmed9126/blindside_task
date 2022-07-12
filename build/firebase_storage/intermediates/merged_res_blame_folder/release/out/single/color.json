@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/firebase_storage/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/e26f0f127259e1700869a05aaf0a0b8c/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:3:3-77
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:3:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:4:3-78
+	android:name
+		ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml:4:20-76
+uses-sdk
+INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+		ADDED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/rizwanahmed/Documents/Flutter_sdk_ios/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_video_info-1.2.0/android/src/main/AndroidManifest.xml

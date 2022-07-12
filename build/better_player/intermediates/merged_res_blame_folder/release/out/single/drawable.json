@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/drawable/exo_rounded_rectangle.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/70ea0a27dbcd72b04f95cfb78fcb34b6/jetified-exoplayer-ui-2.17.1/res/drawable/exo_rounded_rectangle.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/rizwanahmed/Documents/blind_side/build/better_player/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/rizwanahmed/.gradle/caches/transforms-2/files-2.1/a8a05fd803788c6308f2ae35c1bed30c/core-1.7.0/res/drawable/notification_bg_low.xml"
+    }
+]

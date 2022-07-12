@@ -1,0 +1,4 @@
+#Tue Jul 12 17:54:39 CEST 2022
+base.0=/Users/rizwanahmed/Documents/blind_side/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
